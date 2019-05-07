@@ -1,15 +1,22 @@
+/** Font **/
+
+
 @font-face {
-    font-family: "anironcregular";
-    src: url("fonts/aniron-webfont.woff2") format("woff2"), url("fonts/aniron-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+    font-family: "aniron";
+    src: url("../font/anicm___.ttf");
 }
+
 @font-face {
-    font-family: "party_businessregular";
-    src: url("fonts/partybusiness-webfont.woff2") format("woff2"), url("fonts/partybusiness-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+    font-family: "annatar";
+    src: url("../font/tngan.ttf");
 }
+
+@font-face {
+    font-family: "partybusiness";
+    src: url(../font/partybusiness.ttf);
+
+}
+
 body {
     font-family: "anironcregular", Arial, serif;
 }
@@ -57,6 +64,10 @@ footer.row ul {
 footer.row a {
     text-decoration: none;
     color: white;
+}
+footer.row:hover {
+    color: white;
+    text-decoration: underline white;
 }
 
 .surrounded-title:before, .surrounded-title:after {
